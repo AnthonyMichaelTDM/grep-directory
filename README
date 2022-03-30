@@ -1,0 +1,20 @@
+                             grep-directory.exe
+                              By Anthony Rubick
+
+search through all files in a directory for a given string
+
+USAGE:
+        grep-directory.exe [OPTIONS]... [PATH] "[QUERY]"
+
+OPTIONS:
+        -c      --case-insensitive                      is query case sensitive (default: yes)
+        -r,     --recursive                             Search through subdirectories
+        -v,     --verbose                               include all error messages in output
+        -h,     -help                                   Prints help information
+
+PATH:
+        Path to search in, first argument without a '-'
+
+QUERY:
+        String to search for, all the stuff after the path
+        wrap in "'s if it contains spaces
